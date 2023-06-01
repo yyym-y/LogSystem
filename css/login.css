@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    user-select: none;
+}
+.contain{
+    width: 680px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgb(226, 233, 231);
+}
+.same{
+    height: 460px;
+    width: 340px;
+    float: left;
+}
+.name{
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 120px;
+    width: 250px;
+    font-family: Satisfy;
+    letter-spacing:10px;
+    font-size: 40px;
+}
+.name > div:nth-child(1){
+    margin-left: 25px;
+    color: orange;
+    float: left;
+}
+.name > div:nth-child(2){
+    margin-right: 25px;
+    color: rebeccapurple;
+    float: right;
+}
+.name > div:nth-child(3){
+    float: left;
+    color : green;
+    margin: 0 auto;
+    margin-left: 70px;
+
+}
+.text1{
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 290px;
+    height: 21px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9a9393;
+
+}
+.image{
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 180px;
+    height: 180px;
+    background-size: 100% 100%;
+}
+.left > .image{
+    background-image: url(https://gitee.com/qq3109778990/remem_pic/raw/master/img/art-g53588ebf8_640.png);
+}
+.right > .image{
+    background-image: url(https://gitee.com/qq3109778990/remem_pic/raw/master/img/cafe-g2aba7536c_640.png);
+}
+.button{
+    margin: 0 auto;
+    margin-top: 15px;;
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;;
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#757070;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Satisfy Regular'), local('Satisfy-Regular'), url(./font/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+}
+.centre{
+    height: 520px;
+    position: absolute;
+    width: 380px;
+    background-color: #cbc3d5;
+    transform: translate(-20px, -30px);
+    border-radius: 10px;
+}
+.LOGIN{
+    position: absolute;
+}
+.REGISTER{
+    position: absolute;
+    visibility: hidden;
+}
+.title{
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 320px;
+    height: 90px;
+    font-weight: 500;
+    color : white;
+    font-size:60px;
+    text-align: center;
+}
+input{
+    width: 320px;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 23px;
+    font-weight: 100;
+    outline: none;
+    background-color:  #cbc3d5;
+}
+.one{
+    margin-bottom: 60px;;
+}
+.two{
+    margin-bottom: 20px;;
+}
+.bar{
+    background-color: white;
+    width: 340px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
